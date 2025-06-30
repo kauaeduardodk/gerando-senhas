@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lobster&display=swap');
+:root{
+    --branco: white;
+    --cor-de-fundo: #144272;
+    --fundo-senha: #2C74B3;
+    --fundo-texto: #0A2647;
+    --borda: #205295;
+    --fonte: 'Lobster', sans-serif;
+
+}
+*{
+    font-weight: 400;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+.titulo_principal{
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo_secundário{
+    font-size: 24px;
+}
+.conteudo_titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+.cadeado_conteudo{
+    width: 100px;
+}
+.conteudo_senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    font-size:35px;
+
+}
+#campo_senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    width: 70;
+}
+#campo_senha:focus{
+    outline: none;
+}
+.conteudo_senha{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.parametro{
+    background-color: var(--fundo-senha);
+    border: groove; var(--borda);
+    margin: 32px;
+    padding:24px;
+}
+.parametro_senha_titulo{
+    font-size:24px;
+}
+.parametro_coluna_senha{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
